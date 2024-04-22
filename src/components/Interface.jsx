@@ -46,7 +46,7 @@ const AboutSection = () => {
       <h1 className="text-6xl font-extrabold leading-snug">
         Hi, I'm
         <br />
-        <span className="bg-white px-1 italic">Wawa Sensei</span>
+        <span className="bg-white px-1 italic">Arhan Ansari</span>
       </h1>
       <motion.p
         className="text-lg text-gray-600 mt-4"
@@ -63,7 +63,7 @@ const AboutSection = () => {
           delay: 1.5,
         }}
       >
-        I make YouTube videos to help developers
+        I make websites to help developers
         <br />
         learn how to build 3D apps
       </motion.p>
@@ -110,19 +110,23 @@ const skills = [
     title: "3D Modeling",
     level: 40,
   },
+  {
+    title: "Programming",
+    level: 85,
+  },
 ];
 const languages = [
   {
-    title: "🇫🇷 French",
+    title: "🇮🇳 Hindi",
     level: 100,
   },
   {
     title: "🇺🇸 English",
-    level: 80,
+    level: 90,
   },
   {
-    title: "🇯🇵 Japanese",
-    level: 20,
+    title: "🇮🇳 Marathi",
+    level: 70,
   },
 ];
 
